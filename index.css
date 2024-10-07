@@ -27,9 +27,12 @@
     :root{
         --light-color: #f3f3f3;;
     }
+    
+    html, body {
+        overflow-x: hidden;
+      }
 
     body{
-        overflow-x: hidden;
         background-color: var(--light-color);
     }
     .navbar{
@@ -433,6 +436,18 @@
 
 
     @media (max-width: 800px){
+
+        .image-1{
+            height: 150px;
+            width: 150px;
+            position: absolute;
+            top: 120px;
+            right: 20px
+        }
+
+        .carousel-rm-button{
+            display: none;
+        }
         .body{
             overflow-x: hidden;
         }
@@ -635,12 +650,13 @@
 
         .column3{
             height: 1000px;
-            width: 50%;
+            margin-right: 80px;
+            width: 100%;
             background-color: var(--light-color);
         }
         .column4{
             height: 800px;
-            width: 50%;
+            width: 100%;
             background-color: var(--light-color);
         }
 
