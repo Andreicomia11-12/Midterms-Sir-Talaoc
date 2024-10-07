@@ -50,9 +50,11 @@
     .cont-1{
         background: url(images/stars.jpg);
         object-fit: cover;
-        
     }
 
+    a{
+        text-decoration: none;
+    }
 
     /*
     BODY CSS
@@ -279,7 +281,21 @@
     .haloo9{
         overflow: hidden;
         z-index: 1;
-        background-color: rgb(12, 12, 12);
+        background: url(images/stars.jpg);
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .buttonCU{
+        background-color: black;
+        border: none;
+        border: 1px solid white;
+        color: white;
+        height: 40px;
+        border-radius: 40px;
+    }
+
+    .form-control9{
         padding: 20px;
     }
 
@@ -416,6 +432,9 @@
 
 
     @media (max-width: 800px){
+        .body{
+            overflow-x: hidden;
+        }
         .image-2{
             display: none;
         }

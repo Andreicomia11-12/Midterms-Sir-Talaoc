@@ -11,10 +11,10 @@
 <body>
     <header class="header">
       <!-- Bootstrap Navbar -->
-        <nav class="navbar fixed-top navbar-expand-lg">
+        <nav class="navbar w-100 fixed-top navbar-expand-lg">
             <div class="cont-1 container-fluid">
               <a class="navbar-brand" href="#">
-                <img src="images/Samsung LOGO.png" class="navbar-logo img-fluid" alt="...">
+                <img src="images/Samsung LOGO.png" class="navbar-logo img-fluid" id="heroImage" alt="...">
               </a>
               <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,10 +25,10 @@
                     <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active text-light" href="#">Featured</a>
+                    <a class="nav-link active text-light" href="#sect-1">Featured</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active text-light" aria-disabled="true">Gallery</a>
+                    <a class="nav-link active text-light" href="#sect2">Gallery</a>
                   </li>
                 </ul>
                 <form class="form1 d-flex mb-3" role="search">\
@@ -52,7 +52,7 @@
     <main>
 
       <!-- Boootstrap Row -->
-        <section class="sect-1">
+        <section class="sect-1" >
           <div class="row-tainner row container-fluid d-flex justify-content-center">
                   <div class="column1 col-6 w-50">
                     <div class="text-1">
@@ -95,10 +95,9 @@
                 <div class="row gx-5">
                   <div class="col1 col">
                         <div class=" p-3">
-                          <img src="images/galaxys24plus.jpg" class="s24plus img-fluid ms-5" alt="">
+                          <img src="images/galaxys24plus.jpg" class="s24plus img-fluid ms-5" id="sect-1" alt="">
                         </div>
                   </div>
-          <!-- Bootstrap Card -->
                   <div class="col2 col text-">
                       <div class="fdiv-2 row">
                             <div class="col-cols-12">
@@ -136,8 +135,8 @@
                   </div>
           </div>
         </section>
-        <!-- carousel -->
-        <section>
+
+        <section id="sect2">
         <div class="mb-5">
           <h1 class="GalleryH1 text-center Section-title">
             Product Gallery
@@ -150,108 +149,131 @@
                     <div class="carousel-item active" data-bs-interval="10000">
                       <div class="caritem1 row ">
 
-                          <div class="columnGallery col-12 col-lg-4 d-flex gy-5  justify-content-center">
+                          <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center" >
+                            <a href="#Products">
                             <div class="carding card" style="width: 18rem;">
                               <img src="images/A05.webp" class="cardimg1 card-img-top" alt="...">
                               <div class="card-body">
                                 <h5 class="card-title">GALAXY A05</h5>
-                              </div>
-
+                              </div>       
                             </div>
+                          </a>
                           </div>
                             <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">
+                              <a href="#Products">
                               <div class="carding card" style="width: 18rem;">
                                 <img src="images/A55.webp " class="cardimg1 card-img-top" alt="...">
                                 <div class="card-body">
                                   <h5 class="card-title">Galaxy A55</h5>
                                 </div>
                               </div>
+                              </a>
                           </div>
-                          <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">  
+                          <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">
+                            <a href="#Products">
                               <div class="carding card" style="width: 18rem;">
                                 <img src="images/A15.webp" class="cardimg1 card-img-top" alt="...">
                                 <div class="card-body">
                                   <h5 class="card-title">Galaxy A15 5G</h5>
                                 </div>
                               </div>
+                              </a>
                           </div>
                           <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">  
+                            <a href="#Products">
                               <div class="carding card" style="width: 18rem;">
                                 <img src="products/tabA9.webp" class="cardimg1 card-img-top" alt="...">
                                 <div class="card-body">
                                   <h5 class="card-title">Galaxy Tab A9</h5>
                                 </div>
                               </div>
+                            </a>
                           </div>
-                          <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">  
+                          <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">
+                            <a href="#Products">
                               <div class="carding card" style="width: 18rem;">
                                 <img src="products/A15 LTE.webp" class="cardimg1 card-img-top" alt="...">
                                 <div class="card-body">
                                   <h5 class="card-title">Galaxy A15 LTE</h5>
                                 </div>
                               </div>
+                            </a>
                           </div>
                           <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">  
+                            <a href="#Products"> 
                               <div class="carding card" style="width: 18rem;">
                                 <img src="products/A35.webp" class="cardimg1 card-img-top" alt="...">
                                 <div class="card-body">
                                   <h5 class="card-title">Galaxy A35 5G</h5>
                                 </div>
                               </div>
+                            </a>
                           </div>
                       </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="10000">
                       <div class="caritem1 row ">
-
+                        
                         <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">
+                          <a href="#Products">
                           <div class="carding card" style="width: 18rem;">
                             <img src="products/s24.webp" class="cardimg1 card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">GALAXY S24 ULTRA</h5>
                             </div>
-
                           </div>
+                        </a>
                         </div>
+
                           <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">
+                            <a href="#Products">
                             <div class="carding card" style="width: 18rem;">
                               <img src="products/S24normal.webp" class="cardimg1 card-img-top" alt="...">
                               <div class="card-body">
                                 <h5 class="card-title">Galaxy S24</h5>
                               </div>
                             </div>
+                          </a>
                         </div>
                         <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">  
+                          <a href="#Products">
                             <div class="carding card" style="width: 18rem;">
                               <img src="products/s24pplus.webp" class="cardimg1 card-img-top" alt="...">
                               <div class="card-body">
                                 <h5 class="card-title">Galaxy S24+</h5>
                               </div>
                             </div>
+                          </a>
                         </div>
-                        <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">  
+                        <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">
+                          <a href="#Products"> 
                             <div class="carding card" style="width: 18rem;">
                               <img src="products/s24Fe.webp" class="cardimg1 card-img-top" alt="...">
                               <div class="card-body">
                                 <h5 class="card-title">Galaxy S24 FE</h5>
                               </div>
                             </div>
+                          </a>
                         </div>
-                        <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">  
+                        <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center"> 
+                          <a href="#Products"> 
                             <div class="carding card" style="width: 18rem;">
                               <img src="products/Zflip6.webp" class="cardimg1 card-img-top" alt="...">
                               <div class="card-body">
                                 <h5 class="card-title">Galaxy Z Flip 6</h5>
                               </div>
                             </div>
+                            </a>
                         </div>
-                        <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">  
+                        <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">
+                          <a href="#Products">   
                             <div class="carding card" style="width: 18rem;">
                               <img src="products/Zfold.webp " class="cardimg1 card-img-top" alt="...">
                               <div class="card-body">
                                 <h5 class="card-title">Galaxy Z Fold 5</h5>
                               </div>
                             </div>
+                          </a>
                         </div>
                     </div>
                     </div>
@@ -259,53 +281,64 @@
                       <div class="caritem1 row ">
 
                         <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">
+                          <a href="#Products">
                           <div class="carding card" style="width: 18rem;">
-                            <img src="images/A05.webp" class="cardimg1 card-img-top" alt="...">
+                            <img src="products/A25.webp" class="cardimg1 card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">GALAXY A05</h5>
+                              <h5 class="card-title">Galaxy A25</h5>
                             </div>
-
                           </div>
+                          </a>
                         </div>
                           <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">
+                            <a href="#Products">
                             <div class="carding card" style="width: 18rem;">
-                              <img src="images/A55.webp " class="cardimg1 card-img-top" alt="...">
+                              <img src="products/taba9plus.webp" class="cardimg1 card-img-top" alt="...">
                               <div class="card-body">
-                                <h5 class="card-title">Galaxy A55</h5>
+                                <h5 class="card-title">Galaxy A9 Plus</h5>
                               </div>
                             </div>
+                            </a>
                         </div>
                         <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">  
+                          <a href="#Products">
                             <div class="carding card" style="width: 18rem;">
-                              <img src="images/A15.webp" class="cardimg1 card-img-top" alt="...">
+                              <img src="products/S23Fe.webp" class="cardimg1 card-img-top" alt="...">
                               <div class="card-body">
-                                <h5 class="card-title">Galaxy A15 5G</h5>
+                                <h5 class="card-title">Galaxy S23 FE</h5>
                               </div>
                             </div>
+                          </a>
                         </div>
                         <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">  
+                          <a href="#Products">
                             <div class="carding card" style="width: 18rem;">
-                              <img src="images/A15.webp" class="cardimg1 card-img-top" alt="...">
+                              <img src="products/tabS9feplus.webp" class="cardimg1 card-img-top" alt="...">
                               <div class="card-body">
-                                <h5 class="card-title">Galaxy A15 5G</h5>
+                                <h5 class="card-title">Galaxy Tab S9 FE+</h5>
                               </div>
                             </div>
+                          </a>
                         </div>
                         <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">  
+                          <a href="#Products">
                             <div class="carding card" style="width: 18rem;">
-                              <img src="images/A15.webp" class="cardimg1 card-img-top" alt="...">
+                              <img src="products/Tabs10ultra.webp" class="cardimg1 card-img-top" alt="...">
                               <div class="card-body">
-                                <h5 class="card-title">Galaxy A15 5G</h5>
+                                <h5 class="card-title">Galaxy Tab S10 Ultra</h5>
                               </div>
                             </div>
+                          </a>
                         </div>
                         <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">  
+                          <a href="#Products">
                             <div class="carding card" style="width: 18rem;">
-                              <img src="images/A15.webp" class="cardimg1 card-img-top" alt="...">
+                              <img src="products/Zflip5.webp" class="cardimg1 card-img-top" alt="...">
                               <div class="card-body">
-                                <h5 class="card-title">Galaxy A15 5G</h5>
+                                <h5 class="card-title">Galaxy Z Flip 5</h5>
                               </div>
                             </div>
+                          </a>
                         </div>
                     </div>
                     </div>
@@ -329,123 +362,123 @@
         </section>
 
 
-        <section>
+        <section id="Products">
           <div class="PricingCont continer-fluid">
-            <h1 class="text-center mt-5 Section-title"> Galaxy Products</h1>
+            <h1 class="text-center mt-5 Section-title mb-5"> Galaxy Products</h1>
             <div class="row container-fluid">
               <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">  
                 <div class="carding card" style="width: 18rem;">
-                  <img src="images/A15.webp" class="cardimg1 card-img-top" alt="...">
-                  <span class="ms-2 badge1 text-bg-primary">40% off</span>
+                  <img src="images/A15.webp" class="cardimg1 card-img-top"  alt="...">
+                  <span class="ms-2 badge1 text-bg-primary">40% Off</span>
                   <div class="card-body">
                     <h5 class="card-title mt-1 mb-0">Galaxy A15 5G</h5>
                       <ul class="list-group list-group-flush">
-                        <li class="list-group-item">6/128</li>
-                        <li class="list-group-item">PHP: <mark><s>7, 899</s></mark>  4,739.40.</li>
+                        <li class="list-group-item">4/128</li>
+                        <li class="list-group-item">PHP: <mark><s>7, 899</s></mark>  4, 739</li>
                       </ul>
-                      <button type="button" class="pricebutton btn btn-dark">Dark</button>
+                      <button type="button" class="pricebutton btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+              <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center ">  
+                <div class="carding card" style="width: 18rem;">
+                  <img src="products/A15 LTE.webp" class="cardimg1 card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title mt-1 mb-0">Galaxy A15 LTE</h5>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">4/128</li>
+                        <li class="list-group-item">PHP: 9, 990</li>
+                      </ul>
+                      <button type="button" class="pricebutton btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">Buy Now</button>
                   </div>
                 </div>
             </div>
               <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">  
                 <div class="carding card" style="width: 18rem;">
-                  <img src="images/A15.webp" class="cardimg1 card-img-top" alt="...">
+                  <img src="products/A25.webp" class="cardimg1 card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title mt-1 mb-0">Galaxy A15 5G</h5>
+                    <h5 class="card-title mt-1 mb-0">Galaxy A25</h5>
                       <ul class="list-group list-group-flush">
                         <li class="list-group-item">6/128</li>
-                        <li class="list-group-item">PHP: 7, 899</li>
+                        <li class="list-group-item">PHP: 17, 999</li>
                       </ul>
-                      <button type="button" class="pricebutton btn btn-dark">Dark</button>
+                      <button type="button" class="pricebutton btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">Buy Now</button>
                   </div>
                 </div>
             </div>
               <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">  
                 <div class="carding card" style="width: 18rem;">
-                  <img src="images/A15.webp" class="cardimg1 card-img-top" alt="...">
+                  <img src="products/A35.webp" class="cardimg1 card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title mt-1 mb-0">Galaxy A15 5G</h5>
+                    <h5 class="card-title mt-1 mb-0">Galaxy A35</h5>
                       <ul class="list-group list-group-flush">
                         <li class="list-group-item">6/128</li>
-                        <li class="list-group-item">PHP: 7, 899</li>
+                        <li class="list-group-item">PHP: 20, 990</li>
                       </ul>
-                      <button type="button" class="pricebutton btn btn-dark">Dark</button>
+                      <button type="button" class="pricebutton btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">Buy Now</button>
                   </div>
                 </div>
             </div>
               <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">  
                 <div class="carding card" style="width: 18rem;">
-                  <img src="images/A15.webp" class="cardimg1 card-img-top" alt="...">
+                  <img src="products/taba9plus.webp" class="cardimg1 card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title mt-1 mb-0">Galaxy A15 5G</h5>
+                    <h5 class="card-title mt-1 mb-0">Galaxy Tab A9+</h5>
                       <ul class="list-group list-group-flush">
-                        <li class="list-group-item">6/128</li>
-                        <li class="list-group-item">PHP: 7, 899</li>
+                        <li class="list-group-item">8/128</li>
+                        <li class="list-group-item">PHP: 14, 990</li>
                       </ul>
-                      <button type="button" class="pricebutton btn btn-dark">Dark</button>
+                      <button type="button" class="pricebutton btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">Buy Now</button>
                   </div>
                 </div>
             </div>
               <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">  
                 <div class="carding card" style="width: 18rem;">
-                  <img src="images/A15.webp" class="cardimg1 card-img-top" alt="...">
+                  <img src="products/s21.webp" class="cardimg1 card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title mt-1 mb-0">Galaxy A15 5G</h5>
+                    <h5 class="card-title mt-1 mb-0">Galaxy S21</h5>
                       <ul class="list-group list-group-flush">
-                        <li class="list-group-item">6/128</li>
-                        <li class="list-group-item">PHP: 7, 899</li>
+                        <li class="list-group-item">8/128</li>
+                        <li class="list-group-item">PHP: 21, 990</li>
                       </ul>
-                      <button type="button" class="pricebutton btn btn-dark">Dark</button>
+                      <button type="button" class="pricebutton btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">Buy Now</button>
                   </div>
                 </div>
             </div>
               <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">  
                 <div class="carding card" style="width: 18rem;">
-                  <img src="images/A15.webp" class="cardimg1 card-img-top" alt="...">
+                  <img src="products/S24normal.webp" class="cardimg1 card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title mt-1 mb-0">Galaxy A15 5G</h5>
+                    <h5 class="card-title mt-1 mb-0" > Galaxy S24</h5>
                       <ul class="list-group list-group-flush">
                         <li class="list-group-item">6/128</li>
-                        <li class="list-group-item">PHP: 7, 899</li>
+                        <li class="list-group-item">PHP: 50, 899</li>
                       </ul>
-                      <button type="button" class="pricebutton btn btn-dark">Dark</button>
+                      <button type="button" class="pricebutton btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+              <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center" >  
+                <div class="carding card" style="width: 18rem;">
+                  <img src="products/s24.webp" class="cardimg1 card-img-top"  alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title mt-1 mb-0">Galaxy S24 Ultra</h5>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">16/512</li>
+                        <li class="list-group-item">PHP: 107, 899</li>
+                      </ul>
+                      <button type="button" class="pricebutton btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">Buy Now</button>
                   </div>
                 </div>
             </div>
               <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">  
                 <div class="carding card" style="width: 18rem;">
-                  <img src="images/A15.webp" class="cardimg1 card-img-top" alt="...">
+                  <img src="products/S23Fe.webp" class="cardimg1 card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title mt-1 mb-0">Galaxy A15 5G</h5>
+                    <h5 class="card-title mt-1 mb-0">Galaxy S23 FE</h5>
                       <ul class="list-group list-group-flush">
-                        <li class="list-group-item">6/128</li>
-                        <li class="list-group-item">PHP: 7, 899</li>
-                      </ul>
-                      <button type="button" class="pricebutton btn btn-dark">Dark</button>
-                  </div>
-                </div>
-            </div>
-              <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">  
-                <div class="carding card" style="width: 18rem;">
-                  <img src="images/A15.webp" class="cardimg1 card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title mt-1 mb-0">Galaxy A15 5G</h5>
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">6/128</li>
-                        <li class="list-group-item">PHP: 7, 899</li>
-                      </ul>
-                      <button type="button" class="pricebutton btn btn-dark">Dark</button>
-                  </div>
-                </div>
-            </div>
-              <div class="columnGallery col-12 col-lg-4 d-flex gy-5 justify-content-center">  
-                <div class="carding card" style="width: 18rem;">
-                  <img src="images/A15.webp" class="cardimg1 card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title mt-1 mb-0">Galaxyy A15 5G</h5>
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">6/128</li>
-                        <li class="list-group-item">PHP: 7, 899</li>
+                        <li class="list-group-item">16/256</li>
+                        <li class="list-group-item">PHP: 47, 899</li>
                       </ul>
                       <button type="button" class="pricebutton btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">Buy Now</button>
                   </div>
@@ -466,13 +499,13 @@
                         <img src="images/donald.jpg" alt="User1" class="review-avatar">
                         <div>
                             <h3 class="review-name">Donald J. Trump</h3>
-                            <p class="review-date">October 1, 2024</p>
+                            <p class="review-date">October 3, 2024</p>
                         </div>
                     </div>
                     <p class="review-text">"I absolutely love this product! It has changed my life for the better. Highly recommend!"</p>
 
                     <ul class="list-group list-group-flush text-center">
-                      <li class="list-group-item"> Ratings : &#9733; &#9733; &#9733; &#9733; &#9734; | S24 ULTRA 16/256</li>
+                      <li class="list-group-item"> Ratings : &#9733; &#9733; &#9733; &#9733; &#9733; | GALAXY S24 PLUS 16/256</li>
                     </ul>
                 </div>
 
@@ -486,7 +519,7 @@
                     </div>
                     <p class="review-text">"Great quality and fast shipping. Will definitely buy again!"</p>
                     <ul class="list-group list-group-flush text-center">
-                      <li class="list-group-item"> Ratings : &#9733; &#9733; &#9733; &#9733; &#9734; | GALAXY A05 4/128</li>
+                      <li class="list-group-item"> Ratings : &#9733; &#9733; &#9733; &#9733; &#9733; | GALAXY A05 4/128</li>
                     </ul>
                   </div>
 
@@ -494,13 +527,13 @@
                     <div class="review-header">
                         <img src="products/Biden.webp" alt="User 3" class="review-avatar">
                         <div>
-                            <h3 class="review-name">Andrei Comia</h3>
+                            <h3 class="review-name">Joe Biden</h3>
                             <p class="review-date">September 25, 2024</p>
                         </div>
                     </div>
                     <p class="review-text">"Customer service was fantastic, and the product exceeded my expectations!"</p>
                     <ul class="list-group list-group-flush text-center">
-                      <li class="list-group-item"> Ratings : &#9733; &#9733; &#9733; &#9733; &#9734; | GALAXY A05 4/128</li>
+                      <li class="list-group-item"> Ratings : &#9733; &#9733; &#9733; &#9734; &#9734; | GALAXY S24 ULTRA 16/1TB</li>
                     </ul>
                   </div>
 
@@ -509,10 +542,10 @@
                         <img src="images/ariel.jpg" alt="User 3" class="review-avatar">
                         <div>
                             <h3 class="review-name">Ariel Anthony Maravilla</h3>
-                            <p class="review-date">September 25, 2024</p>
+                            <p class="review-date">September 12, 2024</p>
                         </div>
                     </div>
-                    <p class="review-text">"Customer service was fantastic, and the product exceeded my expectations!"</p>
+                    <p class="review-text">"This device brand is the best all around the world"</p>
                     <ul class="list-group list-group-flush text-center">
                       <li class="list-group-item"> Ratings : &#9733; &#9733; &#9733; &#9733; &#9734; | GALAXY A05 4/128</li>
                     </ul>
@@ -523,12 +556,12 @@
                         <img src="images/nina.jpg" alt="User 3" class="review-avatar">
                         <div>
                             <h3 class="review-name">Sheninna Jexell M. Caisip</h3>
-                            <p class="review-date">September 25, 2024</p>
+                            <p class="review-date">September 01, 2024</p>
                         </div>
                     </div>
-                    <p class="review-text">"Customer service was fantastic, and the product exceeded my expectations!"</p>
+                    <p class="review-text">"This website is good for bying Smartphones and other products"</p>
                     <ul class="list-group list-group-flush text-center">
-                      <li class="list-group-item"> Ratings : &#9733; &#9733; &#9733; &#9733; &#9734; | GALAXY A05 4/128</li>
+                      <li class="list-group-item"> Ratings : &#9733; &#9733; &#9733; &#9733; &#9734; | GALAXY S24 FE 8/128</li>
                     </ul>
                   </div>
 
@@ -537,12 +570,12 @@
                         <img src="images/daniel.jpg" alt="User 3" class="review-avatar">
                         <div>
                             <h3 class="review-name">Daniel De Asis</h3>
-                            <p class="review-date">September 25, 2024</p>
+                            <p class="review-date">August 29, 2024</p>
                         </div>
                     </div>
-                    <p class="review-text">"Customer service was fantastic, and the product exceeded my expectations!"</p>
+                    <p class="review-text">"The delivery time and packaging is so good that makes the product more desirable"</p>
                     <ul class="list-group list-group-flush text-center">
-                      <li class="list-group-item"> Ratings : &#9733; &#9733; &#9733; &#9733; &#9734; | GALAXY A05 4/128</li>
+                      <li class="list-group-item"> Ratings : &#9733; &#9733; &#9733; &#9733; &#9734; | GALAXY A55 8w/128</li>
                     </ul>
                   </div>
                 
@@ -570,12 +603,12 @@
                     </div>
 
                     <div class="form-floating">
-                      <textarea class="form-control9 w-100 mt-3" id="floatingTextarea2" style="height: 300px; " placeholder="   Leave a Comment here"></textarea>
+                      <textarea class="form-control9 w-100 mt-3" id="floatingTextarea2" style="height: 300px; " placeholder="Leave a Comment here"></textarea>
                     </div>
                     
                   </div>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="buttonCU w-100">Submit</button>
               </form>
             </div>
 
@@ -616,8 +649,6 @@
                             <label for="exampleInputPassword1" class="form-label">Landmark</label>
                             <input type="password" class="form-control5  form-control" id="exampleInputPassword1">
                           </div>
-
-
                       <button type="submit" class="btn btn-dark w-100">Submit</button>
                     </form>
                 </div>
