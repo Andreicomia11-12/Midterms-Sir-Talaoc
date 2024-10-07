@@ -394,7 +394,7 @@
     }
     .footer .footer-content{
         height: 200px;
-        width: 100%;
+        width: 900px;
         margin-left: -200px;
     }
 
@@ -409,7 +409,7 @@
     }
 
     .paragfoot{
-        width: 100%;
+        width: 500px;
     }
 
     .review-avatar{
@@ -439,6 +439,14 @@
 
         .navbar{
             margin-top: -10px;
+            width: 100%;
+        }
+
+        .footer .footer-content{
+            height: 200px;
+            width: 100%;
+        }
+        .paragfoot{
             width: 100%;
         }
 
